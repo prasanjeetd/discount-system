@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Practice.Classlibrary.Data_Structures
 {
-    public class TreeTraverse
+    public class TreeTraverseCostly
     {
         public void TraverseByBreadth(Tree tree, int level = 0)
         {

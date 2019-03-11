@@ -16,9 +16,13 @@ namespace Practice.Classlibrary.Data_Structures
             tree.right.left = new Tree(6);
             tree.right.right = new Tree(7);
 
-            TreeTraverse traverse = new TreeTraverse();
+            TreeTraverseCostly traverse = new TreeTraverseCostly();
             //int height = traverse.CalculateHeight(tree);
-            traverse.Print(tree);
+            //traverse.Print(tree);
+
+            TreeTraverseEfficient tEfficient = new TreeTraverseEfficient();
+            tEfficient.Traverse(tree);
+
         }
     }
 }
