@@ -13,6 +13,8 @@ namespace Practice.Classlibrary.Data_Structures
             tree.right = new Tree(3);
             tree.left.left = new Tree(4);
             tree.left.right = new Tree(5);
+            tree.right.left = new Tree(6);
+            tree.right.right = new Tree(7);
 
             TreeTraverse traverse = new TreeTraverse();
             //int height = traverse.CalculateHeight(tree);

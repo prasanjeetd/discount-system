@@ -34,6 +34,8 @@ namespace Practice.Classlibrary.Data_Structures
 
             for (int i = 1; i <= height; i++)
             {
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("Processing height:" + i);
                 PrintLevel(tree, i);
             }
         }
@@ -79,6 +81,9 @@ namespace Practice.Classlibrary.Data_Structures
             }
             else
             {
+                Console.WriteLine("Skipping level:" + level);
+                Console.WriteLine("Next level:" + (level - 1));
+
                 PrintLevel(tree.left, level - 1);
                 PrintLevel(tree.right, level - 1);
             }
