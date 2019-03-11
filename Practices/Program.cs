@@ -1,4 +1,5 @@
 ﻿using Practice.Classlibrary;
+using Practice.Classlibrary.Data_Structures;
 using System;
 
 namespace Practices
@@ -9,8 +10,11 @@ namespace Practices
         {
             
 
-            Cart cart = new Cart();
-            cart.calculate();
+            //Cart cart = new Cart();
+            //cart.calculate();
+
+            TreeClient tree = new TreeClient();
+            tree.Call();
 
             Console.ReadLine();
         }
