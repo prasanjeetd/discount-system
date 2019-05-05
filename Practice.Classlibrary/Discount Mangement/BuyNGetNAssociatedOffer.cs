@@ -17,8 +17,8 @@ namespace Practice.Classlibrary
 
         public void addProduct(Product sourceProduct, List<Product> offerProducts)
         {
-            this.sourceProduct.offers.Add(this);
             this.sourceProduct = sourceProduct;
+            this.sourceProduct.offers.Add(this);
             this.offerProducts.AddRange(offerProducts);
         }
 
