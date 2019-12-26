@@ -16,12 +16,28 @@ namespace Practice.Classlibrary.Data_Structures
             tree.right.left = new Tree(6);
             tree.right.right = new Tree(7);
 
-            TreeTraverseCostly traverse = new TreeTraverseCostly();
+            //TreeTraverseCostly traverse = new TreeTraverseCostly();
             //int height = traverse.CalculateHeight(tree);
             //traverse.Print(tree);
 
-            TreeTraverseEfficient tEfficient = new TreeTraverseEfficient();
-            tEfficient.Traverse(tree);
+            //TreeTraverseEfficient tEfficient = new TreeTraverseEfficient();
+            //tEfficient.Traverse(tree);
+
+            TreeTraversalOrder treeOrder = new TreeTraversalOrder();
+            Console.WriteLine("\n Inorder tree");
+            treeOrder.InOrder(tree);
+            treeOrder.Print();
+
+            Console.WriteLine("\n Preorder tree");
+            treeOrder.treeData.Clear();
+            treeOrder.PreOrder(tree);
+            treeOrder.Print();
+
+            Console.WriteLine("\n Level order tree");
+            treeOrder.PrintLevelOrder(tree);
+
+            Console.WriteLine("\n Inorder tree");
+            treeOrder.PrintInorder(tree);
 
         }
     }
