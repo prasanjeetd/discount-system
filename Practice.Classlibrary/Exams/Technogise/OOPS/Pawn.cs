@@ -11,12 +11,12 @@ namespace Practice.Classlibrary.Exams.Technogise.OOPS
                 new StraightMovement(
                     new List<Direction> {
                             Direction.Top,
-                     },1),
+                     },StepCount.One),
                 new DiagonalMovement(
                     new List<Direction> {
                             Direction.TopLeft,
                             Direction.TopRight,
-                     },1)
+                     },StepCount.One)
             })
         {
         }

@@ -14,14 +14,14 @@ namespace Practice.Classlibrary.Exams.Technogise.OOPS
                             Direction.Left,
                             Direction.Right,
                             Direction.Down,
-                     },1),
+                     },StepCount.One),
                 new DiagonalMovement( 
                     new List<Direction> {
                             Direction.TopLeft,
                             Direction.TopRight,
                             Direction.DownLeft,
                             Direction.DownRight,
-                     },1)
+                     },StepCount.One)
             })
         {
         }
