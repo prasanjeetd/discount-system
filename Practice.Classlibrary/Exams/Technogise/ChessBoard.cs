@@ -12,7 +12,7 @@ namespace Practice.Classlibrary.Exams
 
             string[,] chessBoard = initializeBoard();
 
-            string input = "F1";
+            string input = "D4";
 
             Console.WriteLine("Chessboard inputs:" + input);
 
@@ -22,7 +22,16 @@ namespace Practice.Classlibrary.Exams
             //string moves = new King().GetMoves(chessBoard, input);
             //Console.WriteLine(moves);
 
-            string moves = new Queen().GetMoves(chessBoard, input);
+            //string moves = new Queen().GetMoves(chessBoard, input);
+            //Console.WriteLine(moves);
+
+            //string moves = new Technogise.OOPS.King().GetMoves(chessBoard, input);
+            //Console.WriteLine(moves);
+
+            //string moves = new Technogise.OOPS.Pawn().GetMoves(chessBoard, input);
+            //Console.WriteLine(moves);
+
+            string moves = new Technogise.OOPS.Queen().GetMoves(chessBoard, input);
             Console.WriteLine(moves);
         }
 
