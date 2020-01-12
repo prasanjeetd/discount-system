@@ -3,6 +3,7 @@ using Practice.Classlibrary.Algorithms;
 using Practice.Classlibrary.Data_Structures;
 using Practice.Classlibrary.Exams;
 using System;
+using System.Collections.Generic;
 
 namespace Practices
 {
@@ -22,9 +23,13 @@ namespace Practices
             //new Tests().LongestSubstring();
             //new Practice.Classlibrary.OOPS.Runner().Run();
             //new Toptal().Start();
-            new Tracxn().Solution();
+            //new Tracxn().Solution();
+             Setu.Solution();
 
             Console.ReadLine();
         }
     }
+
+
+
 }
