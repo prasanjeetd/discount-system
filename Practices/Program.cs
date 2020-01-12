@@ -25,7 +25,7 @@ namespace Practices
             //new Toptal().Start();
             //new Tracxn().Solution();
             //Setu.Solution();
-            new Technogise().PlayChess();
+            new ChessBoard().Play();
 
             Console.ReadLine();
         }
