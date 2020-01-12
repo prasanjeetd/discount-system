@@ -24,7 +24,8 @@ namespace Practices
             //new Practice.Classlibrary.OOPS.Runner().Run();
             //new Toptal().Start();
             //new Tracxn().Solution();
-             Setu.Solution();
+            //Setu.Solution();
+            new Technogise().PlayChess();
 
             Console.ReadLine();
         }
