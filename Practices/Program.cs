@@ -11,6 +11,7 @@ namespace Practices
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
 
             //Cart cart = new Cart();
             //cart.calculate();
@@ -25,7 +26,9 @@ namespace Practices
             //new Toptal().Start();
             //new Tracxn().Solution();
             //Setu.Solution();
-            new ChessBoard().Play();
+            //new ChessBoard().Play();
+            //new Siemens().Solution();
+            new GWI().Solution();
 
             Console.ReadLine();
         }
